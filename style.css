@@ -1,0 +1,29 @@
+.container{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    gap: 20px;
+}
+.col{
+background-color: #ccc;
+height: 500px;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-5{
+    flex: 5;
+}
+.row, .row-2, .row-3, .row-4, .row-5{
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.back-c{
+    background-color: rgb(4, 41, 4);
+}
+.row-6{
+    background-color: rgb(139, 49, 49);
+    height: 50px;
+}
